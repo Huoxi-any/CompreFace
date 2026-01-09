@@ -6,7 +6,7 @@ Flask==1.1.2
 itsdangerous==2.0.1 # itsdangerous is a Flask dependency, update it with Flask
 jinja2<3.1.0 # jinja2 is a Flask dependency, update it with Flask
 gdown~=4.3.0
-Werkzeug==1.0.1
+Werkzeug==3.1.5
 PyYAML==5.4.1
 
 # tests
@@ -31,3 +31,4 @@ uWSGI==2.0.19
 
 # for successful import with tensorflow
 mtcnn~=0.1.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
